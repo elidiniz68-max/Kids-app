@@ -9,7 +9,13 @@
   <p>Choose a game:</p>
   <button onclick="startMathGame()">🔢 Math</button>
   <button onclick="startReadingGame()">📖 Reading</button>
+  <button onclick="startAdditionGame()">➕ Addition</button>
+  <button onclick="startMissingLetterGame()">🔤 Missing Letter</button>
   <p id="score">⭐ Score: 0</p>
+  <p id="best">🏆 Best: 0</p>
+  <p id="level">😊 Easy mode</p>
+  <button onclick="setDifficulty('easy')">😊 Easy</button>
+  <button onclick="setDifficulty('hard')">🔥 Hard</button>
   <div id="game"></div>
   <script src="game.js"></script>
 </body>

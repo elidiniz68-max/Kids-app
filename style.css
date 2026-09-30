@@ -1,11 +1,22 @@
+:root {
+  color-scheme: light;
+}
+
 body {
-  background-color: #FFF3E0;
+  background: linear-gradient(180deg, #FFF8E1 0%, #FFE0B2 100%);
+  background-attachment: fixed;
+  color: #333333;
   font-family: "Comic Sans MS", cursive, sans-serif;
   text-align: center;
+  min-height: 100vh;
 }
 
 h1 {
   color: #E91E63;
+}
+
+h2 {
+  color: #4A148C;
 }
 
 .big {
